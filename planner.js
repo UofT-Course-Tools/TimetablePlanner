@@ -12,8 +12,14 @@
 //To check conflict, compare the start time of each course to see if it is overlapped by other courses:
 // A function that determine whether overlapping exists
 // input: A set of course objects with its corresponding start and end time
-// dic = {"CSC108H5F2019":["Monday":[ "61400", "72800"], "Wednesday":["50400", "54000"],["Friday", "50400", "54000"]], 
-// "CSC318H5S"
+// dic_courses = {"CSC108H5F2019LEC0101":["Monday":[ "61400", "72800"], "Wednesday":["50400", "54000"],["Friday", "50400", "54000"]]}
+// dic_timetable = {"Monday":[[]], "Tuesday":[[]],"Wednesday":[[]],"Thursday":[[]],"Friday":[[]]}
+// add all the course time to each correspond date, and then compare within the list
+// if any conflict appears, return invalid
+// else return valid
+// for each time interval in the list, take the start time, loop through the list to check if the time is inside the interval of other element
+//  
+
 
 
 
